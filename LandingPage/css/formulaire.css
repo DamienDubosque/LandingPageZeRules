@@ -1,0 +1,87 @@
+html {
+    font-size: 62.5%;   /* 1rem == 10px */
+
+}
+body{
+    margin: 0;
+    background-color: #301D3F;
+    max-width: 1920px;
+    overflow-x: hidden;
+
+}
+body img{
+    max-width: 100%;
+}
+
+/*En tête*/
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fond_logo{
+    position: absolute;
+    top: 0;
+}
+section{
+    position: absolute;
+    top: 20%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    font-family: 'Keep Calm', sans-serif;
+    color: #FDC658;
+    font-size: 3.5rem;
+    font-weight: lighter;
+
+}
+
+
+#formulaire{
+    margin-top: 7rem;
+}
+input{
+    color: white;
+    margin-bottom: 20px;
+    padding: 1rem 0 0.5rem 1rem;
+    background-color: rgba(29,29,29,0.67);
+    border: 0.3rem solid #F3B749; /* Gray border */
+    border-radius: 3rem; /* Rounded borders */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */;
+    width: 35rem;
+    height: 2.5rem;
+}
+input::placeholder{
+    color: white;
+    font-family: 'Keep Calm', sans-serif;
+    font-size: 1.6rem;
+}
+
+input[type=submit] {
+    margin-top: 5rem;
+    background-color: #EEB348;
+    cursor: pointer;
+    border-radius: 3rem;
+    width: 25rem;
+    height: 5.5rem;
+    border: 0.5rem solid white;
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Keep Calm', sans-serif;
+    text-shadow: -1px 2px 7px silver;
+    text-align: center;
+    padding: 1rem 0 4rem 0;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Keep Calm', sans-serif;
+    src: url('keep_calm/KeepCalm-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+a{
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Keep Calm', sans-serif;
+    text-shadow: -1px 4px 7px black;
+}
+
+p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 3.5rem;
+    line-height: 5rem;
+
+}
+h1{
+    font-family: 'Keep Calm', sans-serif;
+    color: #FDC658;
+    font-size: 5rem;
+}
+div#une_petite_partie{
+    text-shadow: -1px 4px 7px black;
+}
+h2{
+    font-family: 'Keep Calm', sans-serif;
+    color: #FDC658;
+    font-size: 3.5rem;
+}
